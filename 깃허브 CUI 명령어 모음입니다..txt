@@ -1,0 +1,25 @@
+Part 1.
+a. 본인 컴퓨터에 폴더 만들기
+b. 해당 폴더에서 git bash cui 실행
+c. git init 시행
+
+Part  2.
+1) 깃 본인 이름과 연결
+git global user.name "본인 이름"
+git globla user.email "이메일 주소"
+
+2)깃허브와 연결
+git remote add origin "깃허브 주소"
+
+Part 3.
+a. git add "파일명" --> 본인 컴퓨터 내의 수준에서 깃을 업데이트(git add -A는 전체)
+b. git commit -m "git 에 대한 설명" : 커밋 생성
+c. git push origin master/main/origin : 원격저장소 업로드
+d. git pull : 원격 저장소의 변경 내용 가져오기
+
+Part4
+git branch "브랜치명" : 브랜치 생성
+git checkout "브랜치명" : 해당 브랜치로 이동
+git branch -d : 브랜치 삭제
+git branch : 현재 브랜치 제시
+git branch -a : 모든 브랜치 제시
